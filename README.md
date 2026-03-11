@@ -15,9 +15,6 @@ A modern, fast productivity app for studying and working built with Nuxt 3, Nuxt
 - **Keyboard Shortcuts**: Press T for timer, D for dashboard, S for stats
 - **Quick Timer**: Always visible timer in sidebar
 - **Categories**: Organize tasks with categories (Study, Work, Personal, etc.)
-- **Dark/Light Mode**: Toggle theme in settings
-- **PIN Protection**: Optional 4-digit PIN to protect your data
-- **Data Export**: Export all your data as JSON
 
 ## Getting Started
 
@@ -106,7 +103,3 @@ studyflow/
 - **Database**: Supabase (PostgreSQL)
 - **Charts**: Chart.js + vue-chartjs
 - **Icons**: Lucide Icons
-
-## License
-
-MIT
