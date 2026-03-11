@@ -14,6 +14,9 @@ A modern, fast productivity app for studying and working built with Nuxt 3, Nuxt
   </tr>
 </table>
 
+> [!NOTE]
+> This is an experimental project with vibe-coding and is not intended to have a **well-written code**. However, I have gone through all of the code and reviewed it to the point where its eligble to be deployed, even if its not perfect. Read the notice below.
+
 > [!IMPORTANT]
 > Please note that this project's initial state was built in several days with **vibe-coding**, so there might be a couple of UI issues, especially on smaller devices. But the overall app is working just fine (all of the code is reviewed by me, so there are no problems). I might do future improvements to the UI of the app. Also, the code is not well-written and doens't quite follow the best practices of the libraries like Nuxt UI, since most of it is written by LLMs. I might also do improvements to these in the future. Anyone who is willing to contribute to the codebase, I would really appreciate them and gladly review their changes.
 
