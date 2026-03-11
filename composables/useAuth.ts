@@ -1,11 +1,12 @@
 import { ref, computed } from 'vue'
-import { supabase } from '~/utils/supabase'
+import { useSupabase } from '~/utils/supabase'
 import type { User } from '@supabase/supabase-js'
 
 const user = ref<User | null>(null)
 const loading = ref(true)
 
 export const useAuth = () => {
+  const supabase = useSupabase()
   const isAuthenticated = computed(() => !!user.value)
   
   const initAuth = async () => {

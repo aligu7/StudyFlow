@@ -32,5 +32,18 @@ export default defineNuxtConfig({
     },
   },
 
+  // Vercel deployment configuration
+  nitro: {
+    preset: 'vercel',
+  },
+
+  // Runtime config for environment variables
+  runtimeConfig: {
+    public: {
+      supabaseUrl: process.env.VITE_SUPABASE_URL,
+      supabaseAnonKey: process.env.VITE_SUPABASE_ANON_KEY,
+    },
+  },
+
   compatibilityDate: '2024-11-01',
 })

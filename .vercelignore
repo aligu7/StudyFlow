@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+npm-debug.log
+
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+
+# Environment files (will be set in Vercel dashboard)
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore

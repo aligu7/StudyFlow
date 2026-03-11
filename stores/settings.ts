@@ -1,5 +1,7 @@
 import { defineStore } from 'pinia'
-import { supabase } from '~/utils/supabase'
+import { useSupabase } from '~/utils/supabase'
+
+const supabase = useSupabase()
 
 export interface ChartVisibleDatasets {
   sessions: boolean

@@ -1,6 +1,8 @@
 import { defineStore } from 'pinia'
-import { supabase } from '~/utils/supabase'
+import { useSupabase } from '~/utils/supabase'
 import { getLocalDateString } from '~/utils/date'
+
+const supabase = useSupabase()
 
 export interface Todo {
   id: string

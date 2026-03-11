@@ -1,7 +1,9 @@
 import { defineStore } from 'pinia'
-import { supabase } from '~/utils/supabase'
+import { useSupabase } from '~/utils/supabase'
 import { getLocalTodayStart, getLocalTodayEnd, getLocalDateString, splitSessionAcrossDays } from '~/utils/date'
 import type { Todo } from './todos'
+
+const supabase = useSupabase()
 
 export interface TimerSession {
   id: string

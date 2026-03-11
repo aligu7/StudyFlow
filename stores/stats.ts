@@ -1,6 +1,8 @@
 import { defineStore } from 'pinia'
-import { supabase } from '~/utils/supabase'
+import { useSupabase } from '~/utils/supabase'
 import { getLocalDateString, splitSessionAcrossDays, formatDuration } from '~/utils/date'
+
+const supabase = useSupabase()
 
 export interface TaskBreakdown {
   todo_id: string
