@@ -202,31 +202,6 @@
             </div>
           </NuxtLink>
         </div>
-
-        <!-- Small screen timer widget (mobile only) -->
-        <div class="p-3 lg:hidden">
-          <NuxtLink
-            to="/timer"
-            class="block bg-gray-800/50 hover:bg-gray-800 rounded-xl p-3 transition-colors"
-          >
-            <div
-              class="text-xl font-mono text-center"
-              :class="timerStore.isRunning ? 'text-emerald-400' : timerStore.isPaused ? 'text-amber-400' : 'text-gray-400'"
-            >
-              {{ timerStore.formattedTime.display }}
-            </div>
-            <div
-              v-if="timerStore.isRunning"
-              class="text-xs text-emerald-400/70 mt-1 text-center flex items-center justify-center gap-1"
-            >
-              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-              Focusing...
-            </div>
-            <div v-else-if="timerStore.isPaused" class="text-xs text-amber-400/70 mt-1 text-center">
-              Paused
-            </div>
-          </NuxtLink>
-        </div>
       </div>
     </aside>
 
