@@ -1,6 +1,17 @@
 # StudyFlow - A Lightweight Productivity App
-
 A modern, fast productivity app for studying and working built with Nuxt 3, Nuxt UI, and Supabase.
+
+<img alt="image" src="https://github.com/user-attachments/assets/592e025d-7ac1-438e-8d16-22b85e4b8321" />
+<p float="left">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/f5323ab9-c017-4b70-9e80-e1e33eaaef13" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/4e8d06e8-918e-4aa6-ad30-72986b9b3499" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/2c51091f-1039-4ad1-ab2a-096df88203ab" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/06cc7936-a88b-4337-b7cf-5bad360d2668" />
+</p>
+
+
+
+
 
 ## Features
 
