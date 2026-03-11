@@ -1,4 +1,4 @@
-# StudyFlow - Your Personal Productivity Companion
+# StudyFlow - A Lightweight Productivity App
 
 A modern, fast productivity app for studying and working built with Nuxt 3, Nuxt UI, and Supabase.
 
