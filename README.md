@@ -4,15 +4,18 @@ A modern, fast productivity app for studying and working built with Nuxt 3, Nuxt
 <img alt="image" src="https://github.com/user-attachments/assets/592e025d-7ac1-438e-8d16-22b85e4b8321" />
 
 <table>
-<tr>
-<td><img src="https://github.com/user-attachments/assets/f5323ab9-c017-4b70-9e80-e1e33eaaef13"></td>
-<td><img src="https://github.com/user-attachments/assets/4e8d06e8-918e-4aa6-ad30-72986b9b3499"></td>
-</tr>
-<tr>
-<td><img src="https://github.com/user-attachments/assets/2c51091f-1039-4ad1-ab2a-096df88203ab"></td>
-<td><img src="https://github.com/user-attachments/assets/06cc7936-a88b-4337-b7cf-5bad360d2668"></td>
-</tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/f5323ab9-c017-4b70-9e80-e1e33eaaef13"></td>
+    <td><img src="https://github.com/user-attachments/assets/4e8d06e8-918e-4aa6-ad30-72986b9b3499"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/2c51091f-1039-4ad1-ab2a-096df88203ab"></td>
+    <td><img src="https://github.com/user-attachments/assets/06cc7936-a88b-4337-b7cf-5bad360d2668"></td>
+  </tr>
 </table>
+
+> [!IMPORTANT]
+> Please note that this project's initial state was built in several days with **vibe-coding**, so there might be a couple of UI issues, especially on smaller devices. But the overall app is working just fine (all of the code is reviewed by me, so there are no problems). I might do future improvements to the UI of the app. Also, the code is not well-written and doens't quite follow the best practices of the libraries like Nuxt UI, since most of it is written by LLMs. I might also do improvements to these in the future. Anyone who is willing to contribute to the codebase, I would really appreciate them and gladly review their changes.
 
 ## Features
 
